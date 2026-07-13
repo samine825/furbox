@@ -1,0 +1,148 @@
+[gd_scene format=3 uid="uid://otjf8jauu4dk"]
+
+[ext_resource type="Script" uid="uid://dngukxvskjjbm" path="res://worldsmenu.gd" id="1_124u6"]
+
+[node name="Control" type="Control" unique_id=580739503]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_124u6")
+
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=2046568217]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 72
+theme_override_constants/margin_top = 72
+theme_override_constants/margin_right = 72
+theme_override_constants/margin_bottom = 72
+
+[node name="PanelContainer" type="PanelContainer" parent="MarginContainer" unique_id=1265634602]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/PanelContainer" unique_id=89334063]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="MarginContainer/PanelContainer/VBoxContainer" unique_id=1650420240]
+layout_mode = 2
+theme_override_font_sizes/font_size = 36
+text = "worlds"
+horizontal_alignment = 1
+
+[node name="MarginContainer" type="MarginContainer" parent="MarginContainer/PanelContainer/VBoxContainer" unique_id=1964718867]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_constants/margin_left = 36
+theme_override_constants/margin_top = 36
+theme_override_constants/margin_right = 36
+theme_override_constants/margin_bottom = 36
+
+[node name="PanelContainer" type="PanelContainer" parent="MarginContainer/PanelContainer/VBoxContainer/MarginContainer" unique_id=1125512543]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/PanelContainer/VBoxContainer/MarginContainer/PanelContainer" unique_id=144216519]
+layout_mode = 2
+
+[node name="Button" type="Button" parent="MarginContainer/PanelContainer/VBoxContainer/MarginContainer/PanelContainer/VBoxContainer" unique_id=834855416]
+layout_mode = 2
+theme_override_font_sizes/font_size = 36
+text = "new world"
+
+[node name="ScrollContainer" type="ScrollContainer" parent="MarginContainer/PanelContainer/VBoxContainer/MarginContainer/PanelContainer/VBoxContainer" unique_id=773712541]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/PanelContainer/VBoxContainer/MarginContainer/PanelContainer/VBoxContainer/ScrollContainer" unique_id=2103504931]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="PanelContainer2" type="PanelContainer" parent="MarginContainer" unique_id=774301236]
+visible = false
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/PanelContainer2" unique_id=667738025]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="MarginContainer/PanelContainer2/VBoxContainer" unique_id=774885213]
+layout_mode = 2
+theme_override_font_sizes/font_size = 36
+text = "new world"
+horizontal_alignment = 1
+
+[node name="MarginContainer" type="MarginContainer" parent="MarginContainer/PanelContainer2/VBoxContainer" unique_id=362558447]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_constants/margin_left = 36
+theme_override_constants/margin_top = 36
+theme_override_constants/margin_right = 36
+theme_override_constants/margin_bottom = 36
+
+[node name="PanelContainer" type="PanelContainer" parent="MarginContainer/PanelContainer2/VBoxContainer/MarginContainer" unique_id=1096166959]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/PanelContainer2/VBoxContainer/MarginContainer/PanelContainer" unique_id=222351325]
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/PanelContainer2/VBoxContainer/MarginContainer/PanelContainer/VBoxContainer" unique_id=1076216111]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="MarginContainer/PanelContainer2/VBoxContainer/MarginContainer/PanelContainer/VBoxContainer/HBoxContainer" unique_id=1489876263]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 1
+theme_override_font_sizes/font_size = 36
+text = "name"
+
+[node name="LineEdit" type="LineEdit" parent="MarginContainer/PanelContainer2/VBoxContainer/MarginContainer/PanelContainer/VBoxContainer/HBoxContainer" unique_id=13961663]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 36
+placeholder_text = "world"
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="MarginContainer/PanelContainer2/VBoxContainer/MarginContainer/PanelContainer/VBoxContainer" unique_id=2117227251]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="MarginContainer/PanelContainer2/VBoxContainer/MarginContainer/PanelContainer/VBoxContainer/HBoxContainer2" unique_id=591909580]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 1
+theme_override_font_sizes/font_size = 36
+text = "seed"
+
+[node name="LineEdit" type="LineEdit" parent="MarginContainer/PanelContainer2/VBoxContainer/MarginContainer/PanelContainer/VBoxContainer/HBoxContainer2" unique_id=858775599]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 36
+placeholder_text = "empty - random"
+
+[node name="HBoxContainer3" type="HBoxContainer" parent="MarginContainer/PanelContainer2/VBoxContainer/MarginContainer/PanelContainer/VBoxContainer" unique_id=436101244]
+visible = false
+layout_mode = 2
+
+[node name="Label" type="Label" parent="MarginContainer/PanelContainer2/VBoxContainer/MarginContainer/PanelContainer/VBoxContainer/HBoxContainer3" unique_id=1060858858]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 1
+theme_override_font_sizes/font_size = 36
+text = "name"
+
+[node name="LineEdit" type="LineEdit" parent="MarginContainer/PanelContainer2/VBoxContainer/MarginContainer/PanelContainer/VBoxContainer/HBoxContainer3" unique_id=1206630464]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 36
+
+[node name="Button" type="Button" parent="MarginContainer/PanelContainer2/VBoxContainer/MarginContainer/PanelContainer/VBoxContainer" unique_id=464136733]
+layout_mode = 2
+size_flags_vertical = 10
+theme_override_font_sizes/font_size = 36
+text = "create"
+
+[connection signal="pressed" from="MarginContainer/PanelContainer/VBoxContainer/MarginContainer/PanelContainer/VBoxContainer/Button" to="." method="add_world"]
+[connection signal="pressed" from="MarginContainer/PanelContainer2/VBoxContainer/MarginContainer/PanelContainer/VBoxContainer/Button" to="." method="create"]

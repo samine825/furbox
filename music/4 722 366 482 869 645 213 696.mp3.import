@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c2b0trpyw2lct"
+path="res://.godot/imported/4 722 366 482 869 645 213 696.mp3-7ea915b0d4a9a31f2ff1d5fa65af72a1.mp3str"
+
+[deps]
+
+source_file="res://music/4 722 366 482 869 645 213 696.mp3"
+dest_files=["res://.godot/imported/4 722 366 482 869 645 213 696.mp3-7ea915b0d4a9a31f2ff1d5fa65af72a1.mp3str"]
+
+[params]
+
+loop=true
+loop_offset=0.0
+bpm=130.0
+beat_count=0
+bar_beats=4
